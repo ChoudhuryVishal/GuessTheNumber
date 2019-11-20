@@ -7,9 +7,9 @@ bot.on("ready", () => {
 
 let limit = 2000; // You can change it through /limit command
 let number = Math.floor(Math.random()* Math.floor(limit)); // You can custom it through /number command and reroll it through /reroll
-let ownerID = 'put your own user ID here';
-let channelID = 'put the channel ID where you want the game';
-let token = `put your bot's token here`
+let ownerID = '559890414769799188';
+let channelID = '646511874795634708';
+let token = 'NjM5Njk4NTg3NDc0NzIyODI2.XdTPNw.eRdr_YKSoKXQQn02pJ_C2yoY_Ro';
 
 bot.on('message', message => {
     if(message.content == "/restart") {
@@ -72,4 +72,4 @@ bot.on('message', message => {
         } else return
     }
 });
-bot.login("NjM5Njk4NTg3NDc0NzIyODI2.XdTPNw.eRdr_YKSoKXQQn02pJ_C2yoY_Ro");
+bot.login(token);
